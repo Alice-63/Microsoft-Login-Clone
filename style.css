@@ -42,7 +42,7 @@ button
     background-color: rgb(27, 125, 223);
 }
 
-.container
+.container>div
 {
     width: 400px;
     background-color: white;
@@ -52,7 +52,12 @@ button
     display: flex;
     flex-direction: column;
 }
-.container>input
+
+.container>img
+{
+    width: 100px;
+}
+.container>div>input
 {
     margin-top: 15px;
     border: none;
