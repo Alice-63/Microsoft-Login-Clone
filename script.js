@@ -1,7 +1,8 @@
 const app= new Vue({
     el:"#app",
     data:{
-        step:1
+        step:1,
+        text:"Anmelden"
     },
     methods:
     {
